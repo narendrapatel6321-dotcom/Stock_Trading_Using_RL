@@ -120,6 +120,10 @@ The agent adapts dynamically, reducing exposure during periods of heightened unc
 
 ### Cross-Market Generalization
 A PPO policy trained on Indian market data is evaluated on US equities, demonstrating partial generalization and reinforcing that the agent learns market-agnostic trading structure, not market-specific memorization.
+| Strategy (Market) | Total Return |
+| :--- | :--- |
+| **PPO Agent (India)** | **72.99%** |
+| **PPO Agent (US)** | **100.20%** |
 
 ![Market_comp](images/plot_3.png)
 
